@@ -6,4 +6,48 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Data\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\desktop\image-grid-1%402x.jpg" />
+    <None Include="wwwroot\assets\desktop\image-grid-1.jpg" />
+    <None Include="wwwroot\assets\desktop\image-grid-2%402x.jpg" />
+    <None Include="wwwroot\assets\desktop\image-grid-2.jpg" />
+    <None Include="wwwroot\assets\desktop\image-grid-3%402x.jpg" />
+    <None Include="wwwroot\assets\desktop\image-grid-3.jpg" />
+    <None Include="wwwroot\assets\desktop\image-hero%402x.jpg" />
+    <None Include="wwwroot\assets\desktop\image-hero.jpg" />
+    <None Include="wwwroot\assets\desktop\image-map%402x.png" />
+    <None Include="wwwroot\assets\desktop\image-map.png" />
+    <None Include="wwwroot\assets\favicon-32x32.png" />
+    <None Include="wwwroot\assets\icon-arrow-left.svg" />
+    <None Include="wwwroot\assets\icon-arrow-right.svg" />
+    <None Include="wwwroot\assets\icon-facebook.svg" />
+    <None Include="wwwroot\assets\icon-instagram.svg" />
+    <None Include="wwwroot\assets\icon-location.svg" />
+    <None Include="wwwroot\assets\icon-twitter.svg" />
+    <None Include="wwwroot\assets\mobile\image-grid-1%402x.jpg" />
+    <None Include="wwwroot\assets\mobile\image-grid-1.jpg" />
+    <None Include="wwwroot\assets\mobile\image-grid-2%402x.jpg" />
+    <None Include="wwwroot\assets\mobile\image-grid-2.jpg" />
+    <None Include="wwwroot\assets\mobile\image-grid-3%402x.jpg" />
+    <None Include="wwwroot\assets\mobile\image-grid-3.jpg" />
+    <None Include="wwwroot\assets\mobile\image-hero%402x.jpg" />
+    <None Include="wwwroot\assets\mobile\image-hero.jpg" />
+    <None Include="wwwroot\assets\mobile\image-map%402x.png" />
+    <None Include="wwwroot\assets\mobile\image-map.png" />
+    <None Include="wwwroot\assets\tablet\image-grid-1%402x.jpg" />
+    <None Include="wwwroot\assets\tablet\image-grid-1.jpg" />
+    <None Include="wwwroot\assets\tablet\image-grid-2%402x.jpg" />
+    <None Include="wwwroot\assets\tablet\image-grid-2.jpg" />
+    <None Include="wwwroot\assets\tablet\image-grid-3%402x.jpg" />
+    <None Include="wwwroot\assets\tablet\image-grid-3.jpg" />
+    <None Include="wwwroot\assets\tablet\image-hero%402x.jpg" />
+    <None Include="wwwroot\assets\tablet\image-hero.jpg" />
+    <None Include="wwwroot\assets\tablet\image-map%402x.png" />
+    <None Include="wwwroot\assets\tablet\image-map.png" />
+  </ItemGroup>
+
 </Project>

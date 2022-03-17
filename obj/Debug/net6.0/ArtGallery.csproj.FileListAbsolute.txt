@@ -16,7 +16,6 @@ C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGalle
 C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\obj\Debug\net6.0\ArtGallery.RazorAssemblyInfo.cs
 C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\obj\Debug\net6.0\scopedcss\bundle\ArtGallery.styles.css
 C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\obj\Debug\net6.0\scopedcss\projectbundle\ArtGallery.bundle.scp.css
