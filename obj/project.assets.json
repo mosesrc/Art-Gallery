@@ -1,11 +1,84 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "de.lkraemer.nemmet/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "de.lkraemer.tagbuilder": "1.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/de.lkraemer.nemmet.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/de.lkraemer.nemmet.dll": {}
+        }
+      },
+      "de.lkraemer.tagbuilder/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/de.lkraemer.tagbuilder.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/de.lkraemer.tagbuilder.dll": {}
+        }
+      },
+      "Zencoder/2.6.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Zencoder.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Zencoder.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "de.lkraemer.nemmet/1.0.2": {
+      "sha512": "sKLqzazEX4hC2vymyB+rfxohEsXa4+m2HmnRdp+IN39O/y2NIlFut1s6aoYT4SafK7/Ku6AwNP1XjqWH1bhYyg==",
+      "type": "package",
+      "path": "de.lkraemer.nemmet/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "de.lkraemer.nemmet.1.0.2.nupkg.sha512",
+        "de.lkraemer.nemmet.nuspec",
+        "lib/netstandard2.0/de.lkraemer.nemmet.dll"
+      ]
+    },
+    "de.lkraemer.tagbuilder/1.0.2": {
+      "sha512": "pFBDZcsW0S6d9z+tyqFn6BbIRHNloLH5U8HbBNmdhNTgEfxHV566MGmTavVXUTgTxdliADn3iEr3EJN8XX9o9A==",
+      "type": "package",
+      "path": "de.lkraemer.tagbuilder/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "de.lkraemer.tagbuilder.1.0.2.nupkg.sha512",
+        "de.lkraemer.tagbuilder.nuspec",
+        "lib/netstandard2.0/de.lkraemer.tagbuilder.dll"
+      ]
+    },
+    "Zencoder/2.6.0": {
+      "sha512": "bQPaOSrHi+VRwoG0tDaTMZve5ohgCqsfru0RJf/pBGlr8ouIDN5dQMyLu5iNMRUJbmjwXq201HRj+Yqpbv8kJA==",
+      "type": "package",
+      "path": "zencoder/2.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Zencoder.dll",
+        "zencoder.2.6.0.nupkg.sha512",
+        "zencoder.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Zencoder >= 2.6.0",
+      "de.lkraemer.nemmet >= 1.0.2"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\rynmo\\.nuget\\packages\\": {}
@@ -45,6 +118,16 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Zencoder": {
+            "target": "Package",
+            "version": "[2.6.0, )"
+          },
+          "de.lkraemer.nemmet": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

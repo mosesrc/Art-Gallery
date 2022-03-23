@@ -7,8 +7,39 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "ArtGallery/1.0.0": {
+        "dependencies": {
+          "Zencoder": "2.6.0",
+          "de.lkraemer.nemmet": "1.0.2"
+        },
         "runtime": {
           "ArtGallery.dll": {}
+        }
+      },
+      "de.lkraemer.nemmet/1.0.2": {
+        "dependencies": {
+          "de.lkraemer.tagbuilder": "1.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/de.lkraemer.nemmet.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "de.lkraemer.tagbuilder/1.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/de.lkraemer.tagbuilder.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
+      "Zencoder/2.6.0": {
+        "runtime": {
+          "lib/net5.0/Zencoder.dll": {
+            "assemblyVersion": "2.6.0.0",
+            "fileVersion": "2.6.0.0"
+          }
         }
       }
     }
@@ -18,6 +49,27 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "de.lkraemer.nemmet/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sKLqzazEX4hC2vymyB+rfxohEsXa4+m2HmnRdp+IN39O/y2NIlFut1s6aoYT4SafK7/Ku6AwNP1XjqWH1bhYyg==",
+      "path": "de.lkraemer.nemmet/1.0.2",
+      "hashPath": "de.lkraemer.nemmet.1.0.2.nupkg.sha512"
+    },
+    "de.lkraemer.tagbuilder/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pFBDZcsW0S6d9z+tyqFn6BbIRHNloLH5U8HbBNmdhNTgEfxHV566MGmTavVXUTgTxdliADn3iEr3EJN8XX9o9A==",
+      "path": "de.lkraemer.tagbuilder/1.0.2",
+      "hashPath": "de.lkraemer.tagbuilder.1.0.2.nupkg.sha512"
+    },
+    "Zencoder/2.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bQPaOSrHi+VRwoG0tDaTMZve5ohgCqsfru0RJf/pBGlr8ouIDN5dQMyLu5iNMRUJbmjwXq201HRj+Yqpbv8kJA==",
+      "path": "zencoder/2.6.0",
+      "hashPath": "zencoder.2.6.0.nupkg.sha512"
     }
   }
 }

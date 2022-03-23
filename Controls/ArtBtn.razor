@@ -1,0 +1,22 @@
+﻿<div class="btn1">
+    <a href=@PathStr>@Text.ToUpper()</a>
+    <div class="arrow">
+        @if (PathStr.Equals("location"))
+        {
+            <img src="/assets/icon-arrow-right.svg" alt="icon-arrow-right" />
+        } else {
+            <img src="/assets/icon-arrow-left.svg" alt="icon-arrow-left" />
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string? Text { get; set; }
+
+    [Parameter]
+    public string? PathStr { get; set; }
+
+    public string? BackgroundColor{ get; set; }
+
+}

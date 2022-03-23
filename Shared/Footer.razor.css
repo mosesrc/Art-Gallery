@@ -1,0 +1,47 @@
+﻿/*
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Outfit', sans-serif;
+*/
+
+footer {
+    font-family: 'Outfit', sans-serif;
+    color: var(--white);
+    background-color: var(--almost-black);
+}
+
+footer h3 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 26px;
+    /* or 162% */
+
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 400px) {
+    footer {
+        padding: 48px 32px;
+    }
+
+    footer h3 {
+        width: 40%;
+        margin-bottom: 38px;
+    }
+
+    footer p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+        margin-bottom: 38px;
+    }
+
+    .social-icons {
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

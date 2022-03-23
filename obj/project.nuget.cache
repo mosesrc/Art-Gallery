@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "m00iYGohi6LAdfnnxdPW9pKu6T+UX3NFnof7W+ln+Kb0PDAzbHkS0nYGf+vc/LtbW3s5gu7cNnON+2L0PWDmlA==",
+  "dgSpecHash": "95abSIq0Ub1ZALHNVD6XB2GsT40GRcFJwKMTt2CGO+cdpMadgv5Ob09351bEDfMwFd8BJxN+NOyn0PG2DE/mXA==",
   "success": true,
   "projectFilePath": "C:\\Users\\rynmo\\OneDrive\\Desktop\\MSSA\\PorfolioProjects\\ArtGalleryProject\\ArtGallery\\ArtGallery.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rynmo\\.nuget\\packages\\de.lkraemer.nemmet\\1.0.2\\de.lkraemer.nemmet.1.0.2.nupkg.sha512",
+    "C:\\Users\\rynmo\\.nuget\\packages\\de.lkraemer.tagbuilder\\1.0.2\\de.lkraemer.tagbuilder.1.0.2.nupkg.sha512",
+    "C:\\Users\\rynmo\\.nuget\\packages\\zencoder\\2.6.0\\zencoder.2.6.0.nupkg.sha512"
+  ],
   "logs": []
 }

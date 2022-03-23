@@ -1,0 +1,111 @@
+/*
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Outfit', sans-serif;
+*/
+
+article[b-s7neiazo9t] {
+    margin-top: 25px;
+    /*height: 1396px;*/
+    width: 92%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-block-one[b-s7neiazo9t]{
+    width: 350px;
+}
+
+div.text-block-one h2[b-s7neiazo9t] {
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    /* or 90% */
+    margin-bottom: 21px;
+    color: var(--almost-black);
+    text-transform: uppercase;
+}
+
+div.text-block-one p[b-s7neiazo9t] {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: var(--dark-grey);
+}
+
+article picture img[b-s7neiazo9t] {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-block-two[b-s7neiazo9t] {
+    color: var(--white);
+    height: 293px;
+    max-width: 343px;
+    background-color: var(--almost-black);
+}
+
+.text-block-two h2[b-s7neiazo9t], .text-block-two p[b-s7neiazo9t] {
+    max-width: 295px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.text-block-two h2[b-s7neiazo9t] {
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    /* or 90% */
+
+    text-transform: uppercase;
+    padding-top: 48px;
+}
+
+div.text-block-two p[b-s7neiazo9t] {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+@media only screen and (max-width: 400px) {
+    article[b-s7neiazo9t] {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 16px;
+        margin-bottom: 126px;
+        margin-top: 120px;
+    }
+
+    div.text-block-one[b-s7neiazo9t] {
+        order:1
+    }
+
+    article picture:nth-child(2)[b-s7neiazo9t] {
+        order: -1;
+    }
+
+    article picture:nth-child(3)[b-s7neiazo9t] {
+        order: 2;
+    }
+
+    article picture:nth-child(4)[b-s7neiazo9t] {
+        order: 3;
+    }
+
+    div.text-block-two[b-s7neiazo9t] {
+        order: 4;
+    }
+
+    div.text-block-one p[b-s7neiazo9t] {
+        width: 343px;
+    }
+}

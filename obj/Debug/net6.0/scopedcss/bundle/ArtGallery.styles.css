@@ -1,3 +1,291 @@
+/* _content/ArtGallery/Controls/ArtBtn.razor.rz.scp.css */
+/*
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Outfit', sans-serif;
+*/
+
+.btn1[b-tm34az9yay] {
+    width: 260px;
+    height: 72px;
+    margin-left: 16px;
+    color: var(--white);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn1 a[b-tm34az9yay] {
+    display: inline-block;
+    height: auto;
+    width: 78%;
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3.63636px;
+    background-color: var(--almost-black);
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.arrow[b-tm34az9yay] {
+    width: 58px;
+    background-color: var(--gold);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1 a:link[b-tm34az9yay] {
+    color: var(--white);
+}
+
+.btn1 a:visited[b-tm34az9yay] {
+    color: var(--white);
+}
+
+.btn1 a:hover[b-tm34az9yay] {
+    color: var(--white);
+}
+
+.btn1 a:active[b-tm34az9yay] {
+    color: var(--white);
+    background-color: var(--gold);
+}
+
+.btn1 a:active+div[b-tm34az9yay] {
+    background-color: var(--almost-black);
+}
+/* _content/ArtGallery/Controls/GridSection.razor.rz.scp.css */
+/*
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Outfit', sans-serif;
+*/
+
+article[b-s7neiazo9t] {
+    margin-top: 25px;
+    /*height: 1396px;*/
+    width: 92%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-block-one[b-s7neiazo9t]{
+    width: 350px;
+}
+
+div.text-block-one h2[b-s7neiazo9t] {
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    /* or 90% */
+    margin-bottom: 21px;
+    color: var(--almost-black);
+    text-transform: uppercase;
+}
+
+div.text-block-one p[b-s7neiazo9t] {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    color: var(--dark-grey);
+}
+
+article picture img[b-s7neiazo9t] {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-block-two[b-s7neiazo9t] {
+    color: var(--white);
+    height: 293px;
+    max-width: 343px;
+    background-color: var(--almost-black);
+}
+
+.text-block-two h2[b-s7neiazo9t], .text-block-two p[b-s7neiazo9t] {
+    max-width: 295px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div.text-block-two h2[b-s7neiazo9t] {
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 45px;
+    /* or 90% */
+
+    text-transform: uppercase;
+    padding-top: 48px;
+}
+
+div.text-block-two p[b-s7neiazo9t] {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+@media only screen and (max-width: 400px) {
+    article[b-s7neiazo9t] {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 16px;
+        margin-bottom: 126px;
+        margin-top: 120px;
+    }
+
+    div.text-block-one[b-s7neiazo9t] {
+        order:1
+    }
+
+    article picture:nth-child(2)[b-s7neiazo9t] {
+        order: -1;
+    }
+
+    article picture:nth-child(3)[b-s7neiazo9t] {
+        order: 2;
+    }
+
+    article picture:nth-child(4)[b-s7neiazo9t] {
+        order: 3;
+    }
+
+    div.text-block-two[b-s7neiazo9t] {
+        order: 4;
+    }
+
+    div.text-block-one p[b-s7neiazo9t] {
+        width: 343px;
+    }
+}
+/* _content/ArtGallery/Pages/Home.razor.rz.scp.css */
+/*
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Outfit', sans-serif;
+*/
+
+#first-block[b-m476st25xq] {
+    width: 88%;
+}
+
+.black-block[b-m476st25xq] {
+    background-color: black;
+    height: 700px;
+    max-width: 450px;
+}
+
+@media only screen and (max-width: 768px) {
+    .black-block[b-m476st25xq] {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #first-block[b-m476st25xq] {
+        height: 630px;
+        width: 100%;
+        font-family: 'Outfit', sans-serif;
+    }
+
+        #first-block h1[b-m476st25xq] {
+            font-family: 'Big Shoulders Display', cursive;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 3.75rem;
+            line-height: 55px;
+            /* or 92% */
+            max-width: 91%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 32px;
+            text-transform: uppercase;
+        }
+
+        #first-block p[b-m476st25xq] {
+            font-family: 'Outfit', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 28px;
+            max-width: 91%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+            color: var(--dark-grey);
+        }
+
+        #first-block a[b-m476st25xq] {
+        }
+
+   
+
+    picture img[b-m476st25xq] {
+        margin-bottom: 32px;
+    }
+}
+/* _content/ArtGallery/Shared/Footer.razor.rz.scp.css */
+/*
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Outfit', sans-serif;
+*/
+
+footer[b-07l6jxeke8] {
+    font-family: 'Outfit', sans-serif;
+    color: var(--white);
+    background-color: var(--almost-black);
+}
+
+footer h3[b-07l6jxeke8] {
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 26px;
+    /* or 162% */
+
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 400px) {
+    footer[b-07l6jxeke8] {
+        padding: 48px 32px;
+    }
+
+    footer h3[b-07l6jxeke8] {
+        width: 40%;
+        margin-bottom: 38px;
+    }
+
+    footer p[b-07l6jxeke8] {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+        margin-bottom: 38px;
+    }
+
+    .social-icons[b-07l6jxeke8] {
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
 /* _content/ArtGallery/Shared/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-4b9ecczezt] {
     background-color: rgba(255, 255, 255, 0.1);

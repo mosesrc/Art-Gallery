@@ -24,3 +24,12 @@ C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGalle
 C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\obj\Debug\net6.0\ArtGallery.pdb
 C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\obj\Debug\net6.0\ArtGallery.genruntimeconfig.cache
 C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\obj\Debug\net6.0\ref\ArtGallery.dll
+C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\bin\Debug\net6.0\de.lkraemer.nemmet.dll
+C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\bin\Debug\net6.0\de.lkraemer.tagbuilder.dll
+C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\bin\Debug\net6.0\Zencoder.dll
+C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\obj\Debug\net6.0\scopedcss\Pages\Home.razor.rz.scp.css
+C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\obj\Debug\net6.0\ArtGallery.csproj.CopyComplete
+C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\obj\Debug\net6.0\scopedcss\Controls\ArtBtn.razor.rz.scp.css
+C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\bin\Debug\net6.0\libman.json
+C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\obj\Debug\net6.0\scopedcss\Controls\GridSection.razor.rz.scp.css
+C:\Users\rynmo\OneDrive\Desktop\MSSA\PorfolioProjects\ArtGalleryProject\ArtGallery\obj\Debug\net6.0\scopedcss\Shared\Footer.razor.rz.scp.css

@@ -1,0 +1,62 @@
+﻿/*
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Outfit', sans-serif;
+*/
+
+.btn1 {
+    width: 260px;
+    height: 72px;
+    margin-left: 16px;
+    color: var(--white);
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn1 a {
+    display: inline-block;
+    height: auto;
+    width: 78%;
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3.63636px;
+    background-color: var(--almost-black);
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.arrow {
+    width: 58px;
+    background-color: var(--gold);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn1 a:link {
+    color: var(--white);
+}
+
+.btn1 a:visited {
+    color: var(--white);
+}
+
+.btn1 a:hover {
+    color: var(--white);
+}
+
+.btn1 a:active {
+    color: var(--white);
+    background-color: var(--gold);
+}
+
+.btn1 a:active+div {
+    background-color: var(--almost-black);
+}

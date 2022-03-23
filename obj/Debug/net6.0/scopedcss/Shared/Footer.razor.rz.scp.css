@@ -1,0 +1,47 @@
+/*
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Outfit', sans-serif;
+*/
+
+footer[b-07l6jxeke8] {
+    font-family: 'Outfit', sans-serif;
+    color: var(--white);
+    background-color: var(--almost-black);
+}
+
+footer h3[b-07l6jxeke8] {
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 26px;
+    /* or 162% */
+
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 400px) {
+    footer[b-07l6jxeke8] {
+        padding: 48px 32px;
+    }
+
+    footer h3[b-07l6jxeke8] {
+        width: 40%;
+        margin-bottom: 38px;
+    }
+
+    footer p[b-07l6jxeke8] {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        /* or 162% */
+        margin-bottom: 38px;
+    }
+
+    .social-icons[b-07l6jxeke8] {
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}

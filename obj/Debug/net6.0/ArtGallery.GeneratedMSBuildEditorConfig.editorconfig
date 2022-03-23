@@ -19,21 +19,33 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rynmo/OneDrive/Desktop/MSSA/PorfolioProjects/ArtGalleryProject/ArtGallery/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+[C:/Users/rynmo/OneDrive/Desktop/MSSA/PorfolioProjects/ArtGalleryProject/ArtGallery/Pages/Bind.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQmluZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/rynmo/OneDrive/Desktop/MSSA/PorfolioProjects/ArtGalleryProject/ArtGallery/Pages/Location.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9jYXRpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rynmo/OneDrive/Desktop/MSSA/PorfolioProjects/ArtGalleryProject/ArtGallery/Shared/Footer.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3Rlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/rynmo/OneDrive/Desktop/MSSA/PorfolioProjects/ArtGalleryProject/ArtGallery/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rynmo/OneDrive/Desktop/MSSA/PorfolioProjects/ArtGalleryProject/ArtGallery/Controls/ArtBtn.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcQXJ0QnRuLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-tm34az9yay
+
+[C:/Users/rynmo/OneDrive/Desktop/MSSA/PorfolioProjects/ArtGalleryProject/ArtGallery/Controls/GridSection.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29udHJvbHNcR3JpZFNlY3Rpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-s7neiazo9t
+
+[C:/Users/rynmo/OneDrive/Desktop/MSSA/PorfolioProjects/ArtGalleryProject/ArtGallery/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-m476st25xq
+
+[C:/Users/rynmo/OneDrive/Desktop/MSSA/PorfolioProjects/ArtGalleryProject/ArtGallery/Shared/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEZvb3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-07l6jxeke8
 
 [C:/Users/rynmo/OneDrive/Desktop/MSSA/PorfolioProjects/ArtGalleryProject/ArtGallery/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
