@@ -6,9 +6,8 @@
 .btn1[b-tm34az9yay] {
     width: 260px;
     height: 72px;
-    margin-left: 16px;
     color: var(--white);
-    border: 1px solid black;
+    border: none;
     display: flex;
     flex-direction: row;
 }
@@ -29,7 +28,6 @@
     letter-spacing: 3.63636px;
     background-color: var(--almost-black);
     text-decoration: none;
-    border: 1px solid black;
 }
 
 .arrow[b-tm34az9yay] {
@@ -59,4 +57,8 @@
 
 .btn1 a:active+div[b-tm34az9yay] {
     background-color: var(--almost-black);
+}
+
+@media only screen and (max-width: 400px) {
+
 }
