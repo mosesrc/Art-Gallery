@@ -5,50 +5,88 @@
 
 #first-block {
     width: 88%;
+    border: 1px solid orange;
+    display: flex;
+    justify-content: flex-start;
 }
 
 #first-block h1 {
     font-family: 'Big Shoulders Display', cursive;
     font-style: normal;
     font-weight: bold;
+    font-size: 96px;
+    line-height: 88px;
+    /* or 92% */
     text-transform: uppercase;
+    mix-blend-mode: ;
+}
+
+.black-block {
+    background-color: var(--almost-black);
+    height: inherit;
+    width: 42.7%;
+    color: var(--white);
+}
+
+.title-info {
+    border: 1px solid aqua;
+    position: absolute;
+    left: 202px;
+    top: 190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 77%;
+    height: 296px;
 }
 
 .title-info p {
     font-family: 'Outfit', sans-serif;
     font-style: normal;
     font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    /* or 145% */
+    width: 350px;
     color: var(--dark-grey);
 }
 
-.black-block {
-    background-color: black;
-    height: 700px;
-    max-width: 450px;
+.title-info div  {
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 @media only screen and (max-width: 768px) {
-    #first-block {
-        width: 95%;
-        margin-bottom: 120px;
-    }
+#first-block {
+    width: 95%;
+    margin-bottom: 120px;
+}
 
-    #first-block h1 {
-        font-size: 70px;
-        line-height: 65px;
-        margin-bottom: 48px;
-    }
+#first-block h1 {
+    font-size: 70px;
+    line-height: 65px;
+    margin-bottom: 48px;  
+}
 
-    .title-info {
-        position: absolute;
-        left: 389px;
-        top: 145px;
-        width: 41%;
-    }
+.title-info {
+    display: block;
+    position: absolute;
+    left: 389px;
+    top: 145px;
+    width: 41%;
+    height: auto;
+}
 
-    .title-info p {
-        margin-bottom: 48px;
-    }
+.title-info p {
+    margin-bottom: 48px;
+}
+
+.title-info div {
+    border: 2px solid yellow;
+    display: contents;
+}
 
     .black-block {
         display: none;
@@ -57,6 +95,7 @@
 
 @media only screen and (max-width: 400px) {
     #first-block {
+        display: block;
         height: 634px;
         width: 100%;
         font-family: 'Outfit', sans-serif;
@@ -71,6 +110,7 @@
     }
 
     .title-info {
+        display: block;
         position: static;
         width: 92%;
         margin: 0 16px;
